@@ -7,6 +7,6 @@ Results are split primarily by ringstats, and so the numbers in the results fold
 ### ringstats_lt0.out
 Ringstats are contained in this file
 
-> MC Temperature      Bond force constr   Angle force contr   Seed number         pn (0-Max allowed ring size)
-> -1800               900                 500                 1                   0.0                 0.0                 0.0                 0.0                 0.0                 0.0                 1.0                 0.0                 0.0                 
-
+| MC Temperature | Bond force constr | Angle force contr | Seed number | pn (0-Max allowed ring size) |
+| -------------- | ----------------- | ----------------- | ----------- | ---------------------------- |
+| -1800 | 900 | 500 | 1 | 0.0                 0.0                 0.0                 0.0                 0.0                 0.0                 1.0                 0.0                 0.0 |     
