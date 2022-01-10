@@ -10,3 +10,10 @@ Ringstats are contained in this file
 | MC Temperature | Bond force constr | Angle force contr | Seed number | pn (0-Max allowed ring size) |
 | -------------- | ----------------- | ----------------- | ----------- | ---------------------------- |
 | -1800 | 900 | 500 | 1 | 0.0                 0.0                 0.0                 0.0                 0.0                 0.0                 1.0                 0.0                 0.0 |     
+
+
+### assortativities_lt0.out
+
+| MC Temperature | Bond force constr | Angle force contr | Seed number | assortativity | estimated AW alpha | AW alpha | AW variance | AW r-squared | atomic assortativity |
+| -------------- | ----------------- | ----------------- | ----------- | ------------- | ------------------ | -------- | ----------- | ------------ | --------------------------- |               
+| -1800 | 1000 | 0 | 4 | -0.2102793 | 0.14734951 | 0.14749325 | 1.83782609 | 0.99902701 | nan |
