@@ -20,19 +20,15 @@ Ringstats are contained in this file
 
 
 ### overall_mean_bond_length_ring.out
-| MC Temperature | Bond force constr | Angle force contr | Seed number | Mean side length 5 membered | Mean side length 6 membered | Mean side length 7 membered |
-| -1800 | 1000 | 0 | 3 | 1.0135110745400446 | 1.0173657880998375 | 1.0190479670215677 |
 
-I'm not certain yet why they dont all average out to 0, I'm guessing some sort of energy contraint
-
-### overall_mean_bond_length_ring.out
 
 Mean ring edge, averaged across all rings of a given size in the system
 
 | MC Temperature | Bond force constr | Angle force contr | Seed number | Mean side length 5 membered | Mean side length 6 membered | Mean side length 7 membered |
+| --- | --- | --- | --- | --- | --- | --- |
 | -1800 | 1000 | 0 | 3 | 1.0135110745400446 | 1.0173657880998375 | 1.0190479670215677 |
 
-I'm not certain yet why they dont all average out to 1, I'm guessing some sort of energy contraint
+I'm not certain yet why they dont all average out to 0, I'm guessing some sort of energy contraint
 
 ### ring_mean_bond_length_ring.out
 
@@ -41,8 +37,12 @@ Each sample contains detail over two sequential lines
 
 
 | MC Temperature | Bond force constr | Angle force contr | Seed number | List of ring sizes |
+| --- | --- | --- | --- |
 | -1800 | 900 | 500 | 1 | 6                   6                   6                   6                   6                   6                   6    ... |  
+
+
 | MC Temperature | Bond force constr | Angle force contr | Seed number | List of mean edge length for each ring |
+| --- | --- | --- | --- | --- |
 | -1800 | 900 | 500 | 1 | 0.9999997668749595  1.0000000555501014  1.0000000555501025  1.0000000555501014  1.0000000555501025  1.0000000555501014  0.9999997668749595  1.0000000555501014 ... |
 
 
