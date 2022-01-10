@@ -37,7 +37,7 @@ Each sample contains detail over two sequential lines
 
 
 | MC Temperature | Bond force constr | Angle force contr | Seed number | List of ring sizes |
-| --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
 | -1800 | 900 | 500 | 1 | 6                   6                   6                   6                   6                   6                   6    ... |  
 
 
@@ -45,5 +45,13 @@ Each sample contains detail over two sequential lines
 | --- | --- | --- | --- | --- |
 | -1800 | 900 | 500 | 1 | 0.9999997668749595  1.0000000555501014  1.0000000555501025  1.0000000555501014  1.0000000555501025  1.0000000555501014  0.9999997668749595  1.0000000555501014 ... |
 
+### ring_total_bond_length_ring.out
 
+Mean ring edge, listed for each individual ring in the system
+Each sample contains detail over n sequential lines, where n is the number of different ring sizes allowed in the system
 
+| MC Temperature | Bond force constr | Angle force contr | Seed number | Ring Size | All edge lengths of rings this size |
+| --- | --- | --- | --- | --- | --- |
+| -1800 | 900 | 500 | 1 | 5 |  |
+| -1800 | 900 | 500 | 1 | 6 | 1.0  0.9999996503124393  0.9999996503124393  1.0 ... |
+| -1800 | 900 | 500 | 1 | 7 |  |
